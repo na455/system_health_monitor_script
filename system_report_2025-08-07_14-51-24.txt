@@ -1,0 +1,37 @@
+ System Health Report - Generated on 2025-08-07_14-51-24
+--------------------------------------------
+ CPU Load:
+top - 14:51:25 up 24 min,  2 users,  load average: 0.03, 0.07, 0.18
+ Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           735Mi       492Mi       142Mi       1.0Mi       214Mi       243Mi
+Swap:          2.1Gi       514Mi       1.6Gi
+ Disk Usage:
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs             4.0M     0  4.0M   0% /dev
+tmpfs                368M     0  368M   0% /dev/shm
+tmpfs                148M  5.2M  142M   4% /run
+/dev/mapper/cs-root   33G  6.0G   27G  19% /
+/dev/sda1            960M  346M  615M  37% /boot
+/dev/mapper/cs-home   16G  155M   16G   1% /home
+tmpfs                 74M  100K   74M   1% /run/user/1000
+/dev/sr0             158M  158M     0 100% /run/media/nada/CDROM
+/dev/sr1              11G   11G     0 100% /run/media/nada/CentOS-Stream-9-BaseOS-x86_64
+ Network Info (IP addresses):
+    inet6 ::1/128 scope host 
+    inet 192.168.179.136/24 brd 192.168.179.255 scope global dynamic noprefixroute ens33
+    inet6 fe80::20c:29ff:fe07:1184/64 scope link noprefixroute 
+internet conictivity (ping test) 
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=128 time=45.3 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=128 time=50.0 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=128 time=44.6 ms
+
+--- 8.8.8.8 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 44.604/46.638/49.963/2.370 ms
+ internet  is reachable 
+ Number of Running Processes:
+253
+ Uptime:
+ 14:51:27 up 24 min,  2 users,  load average: 0.02, 0.07, 0.18
